@@ -1,0 +1,59 @@
+.container {
+  display        : flex;
+  flex-wrap      : wrap;
+  justify-content: center;
+
+}
+
+#sel {
+  height       : 300px;
+  min-width    : 300px;
+  max-width    : 100%;
+  box-shadow   : 8px 8px #fdc500;
+  margin-bottom: 3rem;
+}
+
+#sel:hover {
+  opacity: 50%;
+  cursor : pointer;
+}
+
+
+.btnProducts {
+  background : #e31837;
+  transition : 0.2s ease-out;
+  cursor     : pointer;
+  color      : white;
+  font-size  : 1.4rem;
+  padding    : 1rem 2rem;
+  border     : none;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.btnProducts:hover {
+  background: yellow;
+  cursor    : pointer;
+  color     : black;
+  transition: 0.2s ease-out;
+}
+
+.content {
+  text-align: center;
+  margin-top: 20%;
+  color     : white;
+  margin    : 3rem 3rem;
+  max-width : 300px;
+}
+
+body {
+  background-color: black;
+}
+
+
+#prodTitle {
+  color     : white;
+  font-size : clamp(2rem, 2.5vw, 3.5rem);
+  text-align: center;
+  margin-top: 3rem;
+}

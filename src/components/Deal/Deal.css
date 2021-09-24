@@ -1,0 +1,61 @@
+#deal {
+    width     : 100%;
+    min-width : 1000px;
+    margin-top: 3rem;
+}
+
+#hDeal {
+    font-size     : clamp(2.5rem, 10vw, 4rem);
+    margin-bottom : 1rem;
+    letter-spacing: 1px;
+    color         : white;
+}
+
+#pDeal {
+    font-size    : clamp(2rem, 2.5vw, 2rem);
+    margin-bottom: 2rem;
+}
+
+#btnDeal {
+    font-size : 1.4rem;
+    padding   : 1rem 4rem;
+    border    : none;
+    background: rgb(231, 164, 19);
+    color     : #fff;
+    transition: 0.2s ease-out;
+}
+
+#btnDeal:hover {
+    transition: 0.2s ease-out;
+    cursor    : pointer;
+    color     : #000;
+    background: #e31837;
+}
+
+#dealDesc {
+    z-index        : 500;
+    position       : absolute;
+    top            : 50%;
+    left           : 50%;
+    transform      : translate(-50%, -50%);
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    justify-content: center;
+    height         : 100vh;
+    max-height     : 100%;
+    width          : 650px;
+    color          : #fff;
+    line-height    : 1;
+    font-weight    : bold;
+
+    @media screen and (max-width: 650px) {
+        width: 100%;
+    }
+
+
+}
+
+#container {
+    position: relative;
+}

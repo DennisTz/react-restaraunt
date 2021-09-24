@@ -1,0 +1,20 @@
+#links {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    width          : 240px;
+    margin         : auto;
+}
+
+#links a {
+    color    : #fff;
+    font-size: 30px;
+}
+
+#footTitle {
+    color      : white;
+    font-size  : clamp(2rem, 2.5vw, 3.5rem);
+    text-align : center;
+    margin-top : 6rem;
+    font-weight: bold;
+}
